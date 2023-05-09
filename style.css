@@ -1,0 +1,29 @@
+body {
+    font-family: monospace;   
+}
+
+footer {
+    text-align: right;
+}
+
+#chaos {
+    text-align: center;
+	font-size: 80px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url(img/chaos.jpg);
+
+}
+
+#chaos:hover {
+    text-align: left;
+	font-size: 80px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url(img/chaos_negative.jpg);
+}
+
