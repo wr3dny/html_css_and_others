@@ -1,10 +1,13 @@
 body {
     font-family: monospace;   
-    background-color: #18435a;
+    background-image: url(img/back_big.jpg);
+    background-size: cover;
+
 }
 
 footer {
     text-align: right;
+    position: fixed;
 }
 
 #chaos {
@@ -28,3 +31,20 @@ footer {
 	background-image: url(img/chaos_negative.jpg);
 }
 
+.txt-not-need {
+    font-size: 20px;
+    color: #faa613 ;
+}
+
+.list-chaos {
+    font-size: 16px;
+    color: #faa613 ;
+}
+
+.list-chaos:hover {
+    color: #a10702;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ 
