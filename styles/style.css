@@ -71,17 +71,10 @@ footer {
     width: 200px;
     font-size: 20px;
     color: #faa613 ;
-    transition: 1s;
 }
 
 #ntr-chs:hover {
-    border: 1px solid #de89be ;
-    color: #ffc800;
-
-
-
-
-
+    text-transform: lowercase;
 }
 
 
