@@ -2,12 +2,21 @@ body {
     font-family: monospace;   
     background-image: url(img/back_big.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+
+
+.content {
+    min-height: calc(100vh - 70px);
 }
 
 footer {
     text-align: right;
-    position: fixed;
+    height: 70px;
+    color: #ffecd1;
 }
 
 #chaos {
