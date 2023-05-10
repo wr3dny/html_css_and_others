@@ -1,0 +1,27 @@
+body {
+    font-family: monospace;
+    background-image: url(../img/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.burger {
+    z-index: 3;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    width: 66px;
+    height: 66px;
+    background-image: url(./homepage-red-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
