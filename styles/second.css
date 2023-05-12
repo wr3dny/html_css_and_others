@@ -13,6 +13,8 @@ button {
     cursor: pointer;
 }
 
+
+/* icon to click*/
 .burger {
     z-index: 3;
     top: 0;
@@ -26,10 +28,12 @@ button {
 
 .burger, .menu {
     position: fixed;
+
 }
 
 body.open .burger {
     border: solid 1px #89fc00;
+    color: #89fc00;
     border-radius: 50%;
 }
 
@@ -46,8 +50,22 @@ body.open .burger {
     transition: translate 0.375s cubic-bezier(0.175, 0.885, 0.32, 1);
 }
 
+.menu a{
+    position: relative;
+    color: #3e885b;
+    font-size: 24px;
+    padding: 20px 0;
+    width: 300px;
+    text-decoration: none;
+
+}
+
 .menu nav {
     opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* dim others a after hoover */
@@ -62,7 +80,17 @@ body.open .menu {
     animation: menu-in 0.5s;
 }
 
+body.open .menu a{
+    animation: appear 1s backwards;
+}
+
 .menu nav a:hover {
     opacity: 1;
     color: #89fc00;
 }
+
+
+
+
+
+
